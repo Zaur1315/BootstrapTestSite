@@ -1,0 +1,39 @@
+.wh{
+    color: white;
+
+}
+
+.rightZ{
+padding-right: 15px;
+width: 500px;
+}
+
+
+#carouselExampleDark{
+    padding-bottom: 100px;
+}
+
+.carousel-caption{
+    top: 70%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 255, 255, 0.209);
+    border-radius: 5px;
+    bottom: initial;
+}
+
+/* .card {
+    margin: 50px;
+    border: .5px solid darkgray;
+} */
+
+.row{
+    margin-top: 100px;
+}
+
+.sss{
+    background-color:black;
+}
+
+.cen{
+    justify-content: center;
+}

@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Hello, world!</title>
+  </head>
+
+  <body>
+    <div class="sss">
+<!-- Шапка -->
+    <nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark ">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" width="30px" alt="Logo"></a>
+          <a class="navbar-brand " href="#">Z-Master</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNavDropdown">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ссылка 1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ссылка 2</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Мои Знания
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">HTML & CSS</a></li>
+                  <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                  <li><a class="dropdown-item" href="#">jQuery</a></li>
+                  <li><a class="dropdown-item" href="#">Bootstrap</a></li>
+                  <li><a class="dropdown-item" href="#">Word Press</a></li>
+                  <li><a class="dropdown-item" href="#">React</a></li>
+                  <li><a class="dropdown-item" href="#">Vue</a></li>
+                  <li><a class="dropdown-item" href="#">Python</a></li>
+                  <li><a class="dropdown-item" href="#">PHP</a></li>
+                  <li><a class="dropdown-item" href="#">C#</a></li>
+                  <li><a class="dropdown-item" href="#">SQL</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<!-- Слайдер -->
+
+<div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="img/slider/fe.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Front-End</h2>
+          <p>Часть видимая пользователям. То что воспроизводит наш браузер</p>
+          <button type="button" class="btn btn-light">Подробнее</button>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="img/slider/back.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Back-End</h2>
+          <p>Магия которая происходит на сервере. Что скрыто от глаз пользователей.</p>
+          <button type="button" class="btn btn-light">Подробнее</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/slider/web.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Web-Disign</h2>
+          <p>Дизайн того, что отбражается на сайте. Тот макет, по которому лепятся страницы Сайтов.</p>
+          <button type="button" class="btn btn-light">Подробнее</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!-- карточки -->
+
+<div class="container">
+  
+
+<div class="card-group">
+  <div class="card">
+    <img src="img/16.1 html5.png.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/16.8 css3.png.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/16.9 javascript.png.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="img/16.5 jquery.png.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/пхп.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/16.7 bootstrap.png.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="img/FNxiR.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/react.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/vue.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="img/py.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/c.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/sql.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- сетка -->
+<div class="container">
+  <div class="grid">
+    <div class="row">
+      <div class="col-sm"><p class="wh">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae atque obcaecati iusto pariatur enim laborum unde blanditiis quisquam explicabo itaque? Quisquam pariatur nobis voluptas facere ea quia modi perspiciatis cumque molestiae sint omnis magni, dolorum, nam repellendus quas, animi magnam exercitationem ratione? Aspernatur similique distinctio dolorum sed magni obcaecati recusandae!</p></div>
+      <div class="col-sm"><img class="img-fluid" width="1000px" src="img/slider/structured-query-language-sql-for-all.png" alt=""></div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="grid">
+    <div class="row">
+      <div class="col-sm text-center">
+        <img class="img-fluid" width="1000px" src="img/slider/C.jpg" alt="">
+        <p class="wh">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae atque obcaecati iusto pariatur enim laborum unde blanditiis quisquam  magni obcaecati recusandae!</p>
+      </div>
+      <div class="col-sm text-center">
+        <img class="img-fluid" width="1000px" src="img/slider/bootstrap.jpg" alt="">
+        <p class="wh">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae atque obcaecati iusto pariatur enim laborum unde blanditiis quisquam  magni obcaecati recusandae!</p>
+      </div>
+      <div class="col-sm text-center">
+        <img class="img-fluid" width="1000px" src="img/slider/wp.jpg" alt="">
+        <p class="wh">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae atque obcaecati iusto pariatur enim laborum unde blanditiis quisquam  magni obcaecati recusandae!</p>
+      </div>
+      <div class="col-sm text-center">
+        <img class="img-fluid" width="1000px" src="img/slider/php.jpg" alt="">
+        <p class="wh">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae atque obcaecati iusto pariatur enim laborum unde blanditiis quisquam  magni obcaecati recusandae!</p>
+      </div>
+     
+
+    </div>
+  </div>
+</div>
+</div>
+<!-- футер -->
+
+<nav class="navbar fixed-bottom bg-dark navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Футер</a>
+  </div>
+</nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
+</html>
